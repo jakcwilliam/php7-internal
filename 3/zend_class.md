@@ -118,7 +118,7 @@ class User extends Human
     }
 
     public function getName(){
-        return $this->name;
+        return self::$name;
     }
 }
 ```
